@@ -17,6 +17,8 @@
     --color-button2: rgb(138, 219, 226);
 }
 
+
+
 header{
     text-align: center;
     position: sticky;
@@ -26,11 +28,13 @@ header{
 
 }
 
+
+
 body {
-  display: grid;
-  grid-template-columns: 4fr 1fr;
+  display:grid;
+  grid-template-rows: 1fr 1fr;
   height: 100vh;
-  margin: 40px;
+  margin: 30px;
 }
 
 
@@ -55,13 +59,12 @@ article {
     background-color: var(--color-art1);
     display: grid;
     text-align: center;
-    margin: 5px;
+    margin: 10px;
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--color-art2);
     position:relative;
-    }
-
+}
 
 
 section {
@@ -100,6 +103,15 @@ button {
     background-color: var(--color-but-f)
 }
 
+
+
 .footer {
-    
+    border: 2px dotted;
+    background-color: ;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding:2px;
+    text-align: center;
 }
