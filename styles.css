@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+:root {
+    --color-h1: rgb(42, 33, 7);
+    --color-h2: rgb(225, 92, 4);
+    --color-art1: rgb(193, 189, 75);
+    --color-art2: rgb(172, 82, 23);
+    --color-sect: rgb(144, 133, 39);
+    --color-but-f: rgb(255, 2, 2);
+    --color-but-r: green;
+    --color-but-r2: white;
+    --color-button: rgb(154, 30, 30);
+    --color-button2: rgb(138, 219, 226);
+}
+
+header{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+
+}
+
+body {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  height: 100vh;
+  margin: 40px;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: var(--color-h1);
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+h2 { 
+    text-align: center;
+    color: var(--color-h2);
+}
+
+
+
+article {
+    background-color: var(--color-art1);
+    display: grid;
+    text-align: center;
+    margin: 5px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color-art2);
+    position:relative;
+    }
+
+
+
+section {
+  background-color: var(--color-sect);
+  display: grid;
+  place-items: center;
+  padding: 50px;  
+}
+
+
+
+svg {
+    position:absolute;
+}
+
+
+
+button:hover {
+  background-color: var(--color-but-r);
+  padding: 10px 30px;
+  color: var(--color-but-r2)
+}
+
+
+
+button {
+    background-color: var(--color-button);
+    color: var(--color-button2);
+    padding: 10px 30px;
+    
+}
+
+
+
+.fake:hover {
+    background-color: var(--color-but-f)
+}
+
+.footer {
+    
+}
