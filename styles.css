@@ -30,11 +30,19 @@ header{
 
 
 
+.profile_manag {
+    background-color: rgb(245, 224, 85);
+}
+
+
+
 body {
   display:grid;
   grid-template-rows: 1fr 1fr;
   height: 100vh;
+  width: 50%;
   margin: 30px;
+  
 }
 
 
