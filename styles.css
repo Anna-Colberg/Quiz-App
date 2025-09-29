@@ -1,9 +1,9 @@
 * {
   box-sizing: border-box;
 }
-
-
-
+html {
+    padding: 0px;
+}
 :root {
     --color-h1: rgb(42, 33, 7);
     --color-h2: rgb(225, 92, 4);
@@ -18,51 +18,36 @@
 }
 
 
-
+body {
+  display:grid;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding-right: 400px;
+  padding-left: 400px;
+  
+}
 header{
     text-align: center;
     position: sticky;
     top: 0px;
     right: 0px;
     left: 0px;
-
 }
-
-
-
-.profile_manag {
-    background-color: rgb(245, 224, 85);
-}
-
-
-
-body {
-  display:grid;
-  grid-template-rows: 1fr 1fr;
-  height: 100vh;
-  width: 50%;
-  margin: 30px;
-  
-}
-
-
-
 h1 {
     text-align: center;
     color: var(--color-h1);
     font-size: xx-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
 }
-
-
-
 h2 { 
     text-align: center;
     color: var(--color-h2);
 }
-
-
-
 article {
     background-color: var(--color-art1);
     display: grid;
@@ -72,47 +57,40 @@ article {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--color-art2);
     position:relative;
+    border: 6px double;
 }
-
-
 section {
   background-color: var(--color-sect);
   display: grid;
   place-items: center;
-  padding: 50px;  
+  padding: 20px;  
+  position:relative;
 }
-
-
-
-svg {
-    position:absolute;
-}
-
-
-
 button:hover {
   background-color: var(--color-but-r);
   padding: 10px 30px;
   color: var(--color-but-r2)
 }
-
-
-
 button {
     background-color: var(--color-button);
     color: var(--color-button2);
     padding: 10px 30px;
     
 }
-
-
-
 .fake:hover {
     background-color: var(--color-but-f)
 }
+.questions{
+    max-width: 90%;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+}
+object {
+    position:absolute
 
-
-
+}
 .footer {
     border: 2px dotted;
     background-color: ;
@@ -120,6 +98,47 @@ button {
     bottom: 0px;
     right: 0px;
     left: 0px;
-    padding:2px;
+    padding: 0px;
     text-align: center;
+}
+
+
+
+.profile_manag {
+    background-color: rgb(245, 224, 85);
+}
+.profile_picture {
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    margin: 100px;
+}
+.profile {
+    max-width: 90%;
+    margin: 80px auto;
+    
+    
+}
+.exp {
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+.inx {
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.books {
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.prfl {
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
