@@ -7,15 +7,17 @@ html {
 :root {
     --color-h1: rgb(42, 33, 7);
     --color-h2: rgb(225, 92, 4);
-    --color-art1: rgb(193, 189, 75);
+    --color-art1: rgb(193, 152, 75);
     --color-art2: rgb(172, 82, 23);
-    --color-sect: rgb(144, 133, 39);
-    --color-but-f: rgb(255, 2, 2);
-    --color-but-r: green;
-    --color-but-r2: white;
-    --color-button: rgb(154, 30, 30);
-    --color-button2: rgb(138, 219, 226);
+    --color-sect: rgb(198, 118, 5);
+    --color-but-f: rgb(105, 58, 4);
+    --color-but-r2: rgb(237, 189, 100);
+    --color-button: rgb(154, 102, 30);
+    --color-button2: black;
+    --color-back: saddlebrown;
 }
+
+
 
 
 body {
@@ -26,7 +28,7 @@ body {
   margin: 0px;
   padding-right: 400px;
   padding-left: 400px;
-  
+  background-color: var(--color-back)
 }
 header{
     text-align: center;
@@ -56,15 +58,17 @@ article {
     font-size: larger;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: var(--color-art2);
-    position:relative;
-    border: 6px double;
+    position: relative;
+}
+object {
+    position:absolute;
+    right: -8px;
 }
 section {
   background-color: var(--color-sect);
-  display: grid;
+  display: flex;
   place-items: center;
-  padding: 20px;  
-  position:relative;
+  padding: 20px;
 }
 button:hover {
   background-color: var(--color-but-r);
@@ -74,8 +78,7 @@ button:hover {
 button {
     background-color: var(--color-button);
     color: var(--color-button2);
-    padding: 10px 30px;
-    
+    padding: 10px 30px;  
 }
 .fake:hover {
     background-color: var(--color-but-f)
@@ -85,24 +88,24 @@ button {
     margin: 80px auto;
     padding: 20px;
     border-radius: 20px;
-    position: relative;
 }
-object {
-    position:absolute
-
-}
-.footer {
-    border: 2px dotted;
-    background-color: ;
+footer {
+    border: 2px solid;
+    border-color: var(--color-h1);
+    background-color: var(--color-art1);
     position: fixed;
     bottom: 0px;
     right: 0px;
     left: 0px;
     padding: 0px;
-    text-align: center;
+    
 }
 
 
+
+.bookmark_aktiv {
+    color: red;
+}
 
 .profile_manag {
     background-color: rgb(245, 224, 85);
@@ -115,9 +118,7 @@ object {
 }
 .profile {
     max-width: 90%;
-    margin: 80px auto;
-    
-    
+    margin: 80px auto;  
 }
 .exp {
     display: flex;
@@ -141,4 +142,7 @@ object {
     border-radius: 10px;
     font-size: large;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.active {
+    color:rgb(255, 145, 0)
 }
