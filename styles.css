@@ -5,18 +5,17 @@ html {
   padding: 0px;
 }
 :root {
-  --color-h1: rgb(42, 33, 7);
-  --color-h2: rgb(225, 92, 4);
-  --color-art1: rgb(193, 189, 75);
-  --color-art2: rgb(172, 82, 23);
-  --color-sect: rgb(144, 133, 39);
-  --color-but-f: rgb(255, 2, 2);
-  --color-but-r: green;
-  --color-but-r2: white;
-  --color-button: rgb(154, 30, 30);
-  --color-button2: rgb(138, 219, 226);
+    --color-h1: rgb(42, 33, 7);
+    --color-h2: rgb(225, 92, 4);
+    --color-art1: rgb(193, 152, 75);
+    --color-art2: rgb(172, 82, 23);
+    --color-sect: rgb(198, 118, 5);
+    --color-but-f: rgb(105, 58, 4);
+    --color-but-r2: rgb(237, 189, 100);
+    --color-button: rgb(154, 102, 30);
+    --color-button2: black;
+    --color-back: saddlebrown;
 }
-
 body {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -25,7 +24,7 @@ body {
   margin: 0px;
   padding-right: 400px;
   padding-left: 400px;
-  background-image: url("/img/background_africa.img.jpg");
+  background-color: var(--color-back)
 }
 header {
   text-align: center;
@@ -48,22 +47,24 @@ h2 {
   color: var(--color-h2);
 }
 article {
-  background-color: var(--color-art1);
-  display: grid;
-  text-align: center;
-  margin: 10px;
-  font-size: larger;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: var(--color-art2);
-  position: relative;
-  border: 6px double;
+    background-color: var(--color-art1);
+    display: grid;
+    text-align: center;
+    margin: 10px;
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: var(--color-art2);
+    position: relative;
+}
+object {
+    position:absolute;
+    right: -8px;
 }
 section {
   background-color: var(--color-sect);
-  display: grid;
+  display: flex;
   place-items: center;
   padding: 20px;
-  position: relative;
 }
 button:hover {
   background-color: var(--color-but-r);
@@ -78,28 +79,29 @@ button {
 .fake:hover {
   background-color: var(--color-but-f);
 }
-.questions {
-  display: flex;
-  max-width: 90%;
-  margin: 80px auto;
-  padding: 20px;
-  border-radius: 20px;
-  position: relative;
+.questions{
+    max-width: 90%;
+    margin: 80px auto;
+    padding: 20px;
+    border-radius: 20px;
 }
-object {
-  display: flex;
-  position: absolute;
-}
-.footer {
-  border: 2px dotted;
-  position: fixed;
-  bottom: 0px;
-  right: 0px;
-  left: 0px;
-  padding: 0px;
-  text-align: center;
+footer {
+    border: 2px solid;
+    border-color: var(--color-h1);
+    background-color: var(--color-art1);
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    padding: 0px;
+    
 }
 
+
+
+.bookmark_aktiv {
+    color: red;
+}
 .profile_manag {
   background-color: rgb(245, 224, 85);
 }
@@ -131,8 +133,11 @@ object {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .prfl {
-  border: 2px solid;
-  border-radius: 10px;
-  font-size: large;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    border: 2px solid;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.active {
+    color:rgb(255, 145, 0)
 }
