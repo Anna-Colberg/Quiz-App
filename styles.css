@@ -81,6 +81,7 @@ button {
     background-color: var(--color-but-f)
 }
 .questions{
+    display: flex;
     max-width: 90%;
     margin: 80px auto;
     padding: 20px;
@@ -88,6 +89,7 @@ button {
     position: relative;
 }
 object {
+    display: flex;
     position:absolute
 
 }
