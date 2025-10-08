@@ -1,0 +1,33 @@
+.background {
+    padding: 0px;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  background-color: var(--color-back);
+}
+
+footer {
+    border: 2px solid;
+    border-color: var(--color-h1);
+    background-color: var(--color-art1);
+    position: fixed;
+    bottom: 0rem;
+    right: 0rem;
+    left: 0rem;
+    padding: 0px;
+}
+
+.navigation {
+    text-align: center;
+}
+
+.exp {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+}

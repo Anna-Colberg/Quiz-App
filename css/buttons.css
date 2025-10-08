@@ -1,0 +1,14 @@
+button:hover {
+    background-color: var(--color-buttoncolor1);
+    padding: 10px 30px;
+    color: var(--color-buttonfont);
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+   button {
+    padding: 10px 30px;
+    background-color: var(--color-buttoncolor2);
+    color: var(--color-buttonfont);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

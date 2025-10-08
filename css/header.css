@@ -1,0 +1,26 @@
+
+header {
+    text-align: center;
+    position: fixed;
+    left: 0rem;
+    right: 0rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    background-image: url(../img/photo-1475924156734-496f6cac6ec1.jpeg);
+    z-index: 1000;
+}
+
+h1 {
+    text-align: center;
+    color: var(--color-h1);
+    font-size: xx-large;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border-bottom: 3px dotted black;
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: var(--color-h2);
+    margin: 0px;
+}
