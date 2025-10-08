@@ -1,0 +1,22 @@
+:root {
+    --color-h1: #2a2107;
+    --color-h2: #032597;
+    --color-art1: #7c2690;
+    --color-art2: #e116de;
+    --color-sect: #61109f;
+    --color-but-f: #2d2840;
+    --color-but-r2: #eded64;
+    --color-button: #0d9496;
+    --color-button2: #000000;
+    --color-back: #19138b;
+}
+body {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 100vh;
+  width: 100%;
+  margin: 0px;
+  padding-right: 400px;
+  padding-left: 400px;
+  background-color: var(--color-back);
+}
