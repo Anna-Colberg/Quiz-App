@@ -1,8 +1,8 @@
 @import "./global.css";
 
-@import "./header.css";
-@import "./main.css";
-@import "./back.css";
+@import "./iheader.css";
+@import "./imain.css";
+@import "./iback.css";
 @import "./buttons.css";
 
 @import "./bookmarks.css";

@@ -4,7 +4,7 @@ header {
     position: fixed;
     left: 0rem;
     right: 0rem;
-    border: 2px solid black;
+    border: 2px solid var(--primary-color);
     border-radius: 30px;
     background-image: url(../img/photo-1475924156734-496f6cac6ec1.jpeg);
     z-index: 1000;
@@ -12,10 +12,10 @@ header {
 
 h1 {
     text-align: center;
-    color: var(--color-h1);
+    color: var(--primary-color);
     font-size: xx-large;
     font-family: Georgia, "Times New Roman", Times, serif;
-    border-bottom: 3px dotted black;
+    border-bottom: 3px dotted var(--primary-color);
     margin: 10px;
 }
 

@@ -1,11 +1,30 @@
 :root {
-    --color-h1: #2a2107;
+    
+/* DarkMode */
+     --white-light: #ffffff;
+
+/* Button Questions/Answer */
+    --color-buttoncolor1: #f2acf9;
+    --color-buttoncolor2: rgb(204, 117, 211);
+    --color-buttonfont: #93005d;
+
+/* Main */
+/* --primary-color: #000000; */
+    --pawsbookmarked: #04f410;
+
+/* Body */
+
+
+/* Footer */
+    --color-footer: #823a92;
+
+/* Header + Überschriften 1/2 */
+    --primary-color: #000000;
     --color-h2: #032597;
-    --color-art1: #823a92;
-    --color-sect: #a1588d;
-    --color-buttoncolor1: #13797a;
-    --color-buttoncolor2: rgb(64, 194, 214);
-    --color-buttonfont: #10164a;
-    --color-back: #19138b;
-    --black-light: #141111;
+
+/* Profile */
+    --color-profile_back: rgb(170, 209, 242);
+    --profile: rgb(4, 20, 75);
+
 }
+

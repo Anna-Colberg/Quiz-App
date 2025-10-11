@@ -1,4 +1,4 @@
-body {
+.background {
     background-image: url(../img/background_natur.jpg);
 }
 
@@ -8,8 +8,10 @@ main {
 }
 
 .questions {
+    width: 18rem;
+    margin: 20px auto 0px auto;
     position: relative;
-    border: 3px solid black;
+    border: 3px solid var(--primary-color);
     border-radius: 20px;
     text-align: center;
     background-image: url(../img/photo-1475924156734-496f6cac6ec1.jpeg);
@@ -24,6 +26,11 @@ main {
 
 .paws1 {
     position: absolute;
-    right: -2px;
-    top: -1px;
+    right: 2px;
+    top: 2px;
+}
+
+.paws1bookmark {
+    fill: var(--pawsbookmarked);
+    
 }
