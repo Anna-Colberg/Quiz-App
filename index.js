@@ -27,5 +27,3 @@ bookmark4.addEventListener("click", () => {
 bookmark5.addEventListener("click", () => {
     bookmark5.classList.toggle("paws1bookmark")
 })
-
-

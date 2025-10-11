@@ -5,46 +5,48 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Animal-Quiz/Bookmarker</title>
         <link rel="stylesheet" href="./css/styles.css"/>
-        <script src="./index.js" defer></script>
+        <script src="./form.js" defer></script>
     </head>
-
-    <header>
-    <body class="background">
-        <h1>Animal-Quiz</h1>
-        <h2 class="formular"><em>Formular</em></h2>
-    </header>
-
-
-
-<form>
-    <fieldset>
-        <legend>Personal Data</legend>
-        <label for="firstname"></label>
-        <input type="firstname" id="firstname" maxlength="20" required>
-
-        <label for="lastname"></label>
-        <input type="lastname" id="lastname" required>
-
-        <label for="email"></label>
-        <input type="email" id="email" required>
-    </fieldset>
-
-    <fieldset>
-        <legend>Message</legend>
-        <label for="personal-message"></label>
-        <textarea type="personal-message" name="personal-message id="personal-message></textarea>
-    </fieldset>
-
-    <label for="Option">Our Option</label>
-    <select name="option" id="option">
-    <option value="weekly">Weekly</option>
-    <option value="monthly">Monthly</option>
-    <option value="yearly">Yearly</option>
-    </select required>
-
-    <input type="checkbox" name="accept-all" id="accept-all" required>
-    <label for="accept-all">Accept all</label>
-</form>
+    <body class="background"></body>
+        <header>
+            <h1>Animal-Quiz</h1>
+            <h2 class="formular"><em>Formular</em></h2>
+        </header>
+        <form>
+            <fieldset>
+                <legend>Personal Data</legend>
+                <p>Only voluntary information</p>
+                <label for="firstname">First Name</label>
+                <input type="firstname" id="firstname" maxlength="20">
+                <br></br>
+                <label for="lastname">Last Name</label>
+                <input type="lastname" id="lastname">
+                <br></br>
+            </fieldset>
+            <fieldset>
+                <legend>YOUR QUESTIONS &' ANSWER</legend>
+                <label for="newquestion">Question</label>
+                <textarea type="newquestion" name="newquestion" id="newquestion"></textarea>
+                <br></br>
+                <label for="newanswer">Answer 1</label>
+                <textarea type="newanswer" name="newanswer" id="newanswer"></textarea>
+                <br></br>
+                <label for="newanswer">Answer 2</label>
+                <textarea type="newanswer" name="newanswer" id="newanswer"></textarea>
+                <br></br>
+                <label for="newanswer">Answer 3</label>
+                <textarea type="newanswer" name="newanswer" id="newanswer"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Tag's</legend>
+                <input type="text">
+            </fieldset>
+            <br></br>
+            <input type="checkbox" id="correctness" name="correctness" required/>
+            <label for="correctness">I confirm the correctness</label>
+            <br></br>
+            <button type="submit">Submit</button>
+        </form>
         <footer>
             <p><nav class="navigation">
                 <ul class="exp">
@@ -52,7 +54,7 @@
                     width="24" 
                     height="24" 
                     viewBox="0 0 24 24" 
-                    fill="#fff" 
+                    fill="none" 
                     stroke="#000" 
                     stroke-width="2" 
                     stroke-linecap="round" 
@@ -63,14 +65,14 @@
                     width="24" 
                     height="24" 
                     viewBox="0 0 24 24" 
-                    fill="#032597" 
+                    fill="none" 
                     stroke="#000" 
                     stroke-width="2" 
                     stroke-linecap="round" 
                     stroke-linejoin="round" 
                     ><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><a href="./bookmarks.html"><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/></a>
                 </svg>
-                <svg 
+                <svg  
                     width="24" 
                     height="24" 
                     viewBox="0 0 24 24" 
@@ -79,12 +81,13 @@
                     stroke-width="2" 
                     stroke-linecap="round" 
                     stroke-linejoin="round" 
-                    ><circle cx="12" cy="12" r="4"/><a href="./form.html"><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"/></svg></a>
+                ><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/><a href="./form.html"><path d="M8 12h8"/><path d="M12 8v8"/></a>
+                </svg>
                 <svg 
                     width="24" 
                     height="24" 
                     viewBox="0 0 24 24" 
-                    fill="#fff" 
+                    fill="none" 
                     stroke="#000" 
                     stroke-width="2" 
                     stroke-linecap="round" 

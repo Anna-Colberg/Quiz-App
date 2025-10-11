@@ -1,14 +1,18 @@
+
+/* Farben Variable */
 @import "./global.css";
 
+/* index.html / bookmarks.html */
 @import "./iheader.css";
 @import "./imain.css";
 @import "./iback.css";
 @import "./buttons.css";
 
-@import "./bookmarks.css";
+/* profil.html */
 @import "./profile.css";
 
-
+/* form.html */
+@import "./form.css";
 
 
 
