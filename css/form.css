@@ -2,3 +2,56 @@ form {
     padding: 100px 20px 100px 20px;
     margin: 20px auto 0px auto;
 }
+
+.personal-data{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: 5px solid var(--color-buttoncolor2);
+    border-radius: 10px;
+    background-color: var(--color-buttoncolor1);
+    text-align: right;
+}
+
+.new-quest{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: 5px solid var(--color-buttoncolor2);
+    border-radius: 10px;
+    background-color: var(--color-buttoncolor1);
+    text-align: right;
+}
+
+.tags{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: 5px solid var(--color-buttoncolor2);
+    border-radius: 10px;
+    background-color: var(--color-buttoncolor1);
+    text-align: right;
+}
+
+.checkbox{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: 5px solid var(--color-buttoncolor2);
+    border-radius: 10px;
+    background-color: var(--color-buttoncolor1);
+    text-align: center;
+}
+
+.overview{
+    text-align: left;
+}
+
+.button-submit{
+    text-align: center;
+}
+
+.new-post{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    border: 5px solid var(--color-buttoncolor2);
+    border-radius: 10px;
+    background-color: var(--color-buttoncolor1);
+    text-align: center;
+}

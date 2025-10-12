@@ -2,7 +2,8 @@
 
 /* Fragen und Antwort Button */
 .questions {
-    width: 18rem;
+    width: 20rem;
+    box-shadow: 0px 7px 5px 8px rgba(14, 1, 255, 0.25);
     margin: 20px auto 0px auto;
     position: relative;
     border: 3px solid var(--primary-color);
@@ -17,30 +18,50 @@
     padding: 30px;
 }
 
+
+.fake {
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: 350ms;
+    box-shadow: 6px 8px 6px 2px rgba(0, 0, 0, 0.25);
+    background-color: var(--color-buttoncolor2);
+    color: var(--color-buttonfont);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .fake:hover {
     background-color: var(--color-buttoncolor1);
     padding: 10px 30px;
     color: var(--color-buttonfont);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.fake {
+.fakebuttonclick {
     padding: 10px 30px;
     transition: 350ms;
-    background-color: var(--color-buttoncolor2);
-    color: var(--color-buttonfont);
+    background-color: var(--color-false);
+    color: var(--primary-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+.right {
+    padding: 10px 30px;
+    border-radius: 20px;
+    transition: 350ms;
+    background-color: var(--color-buttoncolor2);
+    color: var(--color-buttonfont);
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 .right:hover {
     background-color: var(--color-buttoncolor1);
     padding: 10px 30px;
     color: var(--color-buttonfont);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-.right {
+.rightbuttonclick {
     padding: 10px 30px;
     transition: 350ms;
-    background-color: var(--color-buttoncolor2);
-    color: var(--color-buttonfont);
+    background-color: var(--color-right);
+    color: var(--primary-color);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
