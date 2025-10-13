@@ -12,69 +12,52 @@
             <h1>Animal-Quiz</h1>
             <h2 class="formular"><em>Formular</em></h2>
         </header>
-
         <form data-js="message-form">
             <fieldset class="personal-data">
                 <legend class="overview">Personal Data</legend>
                 <label for="first-input">First Name</label>
-                <input id="first-input" type="text" data-js="first-input" maxlength="20">
+                <input id="first-input" type="text" data-js="first-input" maxlength="20" required>
                 <label for="last-input">Last Name</label>
-                <input id="last-input" type="text" data-js="last-input">
+                <input id="last-input" type="text" data-js="last-input" required>
             </fieldset>
-
             <fieldset class="new-quest">
                 <legend class="overview">Your QUESTIONS &' ANSWER</legend>
                 <label for="newquestion">Question</label>
-                <textarea 
+                <textarea data-js="personal-message"
                 type="newquestion" 
                 name="newquestion" 
-                id="newquestion" 
-                data-js="personal-message" 
-                maxlength="200">
-                </textarea>
-                <div class="counter" data-js="counter">200</div>
-
-                <label for="newanswer">Answer 1</label>
-                <textarea 
-                type="newanswer" 
-                name="newanswer" 
-                id="newanswer" 
-                data-js="personal-message1" 
-                maxlength="100">
-                </textarea>
-                <div class="counter1" data-js="counter1">200</div>
-
-                <label for="newanswer">Answer 2</label>
-                <textarea 
-                type="newanswer" 
-                name="newanswer" 
-                id="newanswer" 
-                data-js="personal-message2" 
+                id="newquestion"  
                 maxlength="100"></textarea>
-                <div class="counter2" data-js="counter2">200</div>
+                <div class="counter" data-js="counter">100</div>
 
-                <label for="newanswer">Answer 3</label>
-                <textarea 
-                type="newanswer" 
-                name="newanswer" 
-                id="newanswer" 
-                data-js="personal-message3" 
-                maxlength="100"></textarea>
-                <div class="counter3" data-js="counter3">200</div>
+                <label for="newanswer1">Answer 1</label>
+                <textarea data-js="personal-message1"
+                name="newanswer1" 
+                id="newanswer1"  
+                maxlength="50"></textarea>
+                <div class="counter1" data-js="counter1">50</div>
+
+                <label for="newanswer2">Answer 2</label>
+                <textarea data-js="personal-message2" 
+                name="newanswer2" 
+                id="newanswer2" 
+                maxlength="35"></textarea>
+                <div class="counter2" data-js="counter2">35</div>
+
+                <label for="newanswer3">Answer 3</label>
+                <textarea data-js="personal-message3" 
+                name="newanswer3" 
+                id="newanswer3" 
+                maxlength="80"></textarea>
+                <div class="counter3" data-js="counter3">80</div>
             </fieldset>
-
             <fieldset class="tags">
                 <legend class="overview">#tags</legend>
-                <label for="text-input">TAGs</label>
+                <label for="tags">TAGs</label>
                 <input id="tags" type="text" data-js="text-input" />
-                <!-- <input type="checkbox" id="correctness" name="correctness" required/>
-                <label for="correctness">I confirm the correctness</label> -->
             </fieldset>
-                
             <p class="button-submit"><button type="submit" data-js="addbutton">Submit</button></p>
-            
-                <ul class="new-post" data-js="message-container"></ul>
-                
+                <!-- <ul class="new-post" data-js="message-container"></ul> -->
         </form>
         <footer>
             <p><nav class="navigation">
