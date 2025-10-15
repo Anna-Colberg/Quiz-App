@@ -13,9 +13,11 @@
             <h2 class="bookmarkerH"><em>Bookmarker </em></h2>
         </header>
         <main>
-            <div class="cardContainer">
-                <article class="questions">Can hippos run fast?
-                    <svg data-js="bookmark1"
+            <div class="cardContainer" data-js="card-container">
+                <article class="card" data-js="card">
+                    <h3 class="card__question">Where do meerkats live?
+                    </h3>
+                    <svg data-js="bookmark"
                         class="paws1" 
                         width="24" 
                         height="24" 
@@ -27,28 +29,33 @@
                         stroke-linejoin="round" 
                         ><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/>
                     </svg>
-                    <section class="answer">
-                        <button 
-                            type="button" 
-                            class="right"
-                            data-js="rightbutton1">yes, up to 30km/h
-                        </button>
-                        <button 
-                            type="button" 
-                            class="fake"
-                            data-js="falsebutton1">no,they can't
-                        </button>
-                        <button 
-                            type="button" 
-                            class="fake"
-                            data-js="falsebutton11">yes, up to 50km/h
-                        </button>
-                    </section>
+                    <button 
+                        type="button"
+                        class="false"
+                        data-js="false-button">Australia
+                    </button>
+                    <button 
+                        type="button"
+                        class="right"
+                        data-js="right-button">Africa
+                    </button>
+                    <button 
+                        type="button" 
+                        class="false"
+                        data-js="false-button">America
+                    </button>
+                    <ul class="card__tag-list">
+                        <li class="card__tag-list-item">#continent</li>
+                        <li class="card__tag-list-item">#animals</li>
+                        <li class="card__tag-list-item">#quiz-duell</li>
+                    </ul>
                 </article>
             </div>
-            <div class="cardContainer">
-                <article class="questions">How many have spines does an hedgehog?
-                    <svg data-js="bookmark2"
+            <div class="cardContainer" data-js="card-container">
+                <article class="card" data-js="card">
+                    <h3 class="card__question">Can hippos run fast?
+                    </h3>
+                    <svg data-js="bookmark"
                         class="paws1" 
                         width="24" 
                         height="24" 
@@ -58,25 +65,28 @@
                         stroke-width="1" 
                         stroke-linecap="round" 
                         stroke-linejoin="round" 
-                        class="lucide lucide-paw-print-icon lucide-paw-print"><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/>
+                        ><circle cx="11" cy="4" r="2"/><circle cx="18" cy="8" r="2"/><circle cx="20" cy="16" r="2"/><path d="M9 10a5 5 0 0 1 5 5v3.5a3.5 3.5 0 0 1-6.84 1.045Q6.52 17.48 4.46 16.84A3.5 3.5 0 0 1 5.5 10Z"/>
                     </svg>
-                    <section class="answer">
-                        <button 
-                            type="button" 
-                            class="fake"
-                            data-js="falsebutton2">up to 1.000
-                        </button>
-                        <button 
-                            type="button" 
-                            class="right"
-                            data-js="rightbutton2">up to 8.000
-                        </button>
-                        <button 
-                            type="button" 
-                            class="fake"
-                            data-js="falsebutton22">up to 20.000
-                        </button>
-                    </section>
+                    <button
+                        type="button" 
+                        class="right"
+                        data-js="right-button">yes, up to 30km/h
+                    </button>
+                    <button 
+                        type="button" 
+                        class="false"
+                        data-js="false-button">no,they can't
+                    </button>
+                    <button 
+                        type="button" 
+                        class="false"
+                        data-js="false-button">yes, up to 50km/h
+                    </button>
+                    <ul class="card__tag-list">
+                        <li class="card__tag-list-item">#continent</li>
+                        <li class="card__tag-list-item">#animals</li>
+                        <li class="card__tag-list-item">#quiz-duell</li>
+                    </ul>
                 </article>
             </div>
         </main>

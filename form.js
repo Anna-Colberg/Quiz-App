@@ -42,11 +42,6 @@ personalMessage3.addEventListener("input", (event) => {
 /* Formular */
 const form = document.querySelector('[data-js="message-form"]');
 
-/* Fieldset Personal Data */
-/* const firstInput = document.querySelector('[data-js="first-input"]');
-const lastInput = document.querySelector('[data-js="last-input"]'); */
-
-
 
 /* Platz für neue Fragenstellungen */
 const messageContainer = document.querySelector('[data-js="message-container"]');
@@ -59,12 +54,10 @@ newcardElement.classList.add("new-post");
 /* Auf den Button Submit klicken soll folgendes ausgeführt werden: */
 form.addEventListener("submit", (event) => {
     event.preventDefault(); 
-/*     const newElement = document.createElement ("p");
-    newElement.textContent = firstInput.value;
-    const newElement2 = document.createElement ("p");
-    newElement2.textContent = lastInput.value; */
+    const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData);
     const newElement3 = document.createElement ("p");
-    newElement3.textContent = personalMessage.value;
+    newElement3.textContent = data.newquestion;
     const newElement4 = document.createElement ("p");
     newElement4.textContent = personalMessage1.value;
     const newElement5 = document.createElement ("p");
@@ -73,15 +66,13 @@ form.addEventListener("submit", (event) => {
     newElement6.textContent = personalMessage3.value;
     
 
-    const formData = new FormData(event.target);
-    const data = Object.fromEntries(formData);
-  /*   newcardElement.appendChild(newElement);
-    newcardElement.appendChild(newElement2) */
+   /*  const formData = new FormData(event.target);
+    const data = Object.fromEntries(formData); */
     newcardElement.appendChild(newElement3)
     newcardElement.appendChild(newElement4)
     newcardElement.appendChild(newElement5)
     newcardElement.appendChild(newElement6)
-    form.append(newcardElement);
+    messageContainer.append(newcardElement);
     event.target.reset(); 
 });
 

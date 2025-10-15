@@ -1,18 +1,48 @@
 console.log("hallo")
 
-const bookmark1 = document.querySelector('[data-js="bookmark1"]')
-const bookmark2 = document.querySelector('[data-js="bookmark2"]')
+for (const card of document.querySelectorAll ('[data-js="card-container"]')) {
+    const bookmark = card.querySelector('[data-js="bookmark"]');
+    if (bookmark) {
+        bookmark.addEventListener("click", () => {
+            bookmark.classList.toggle("paws1bookmark");
+        });
+    }
+}
+for (const button of card.querySelectorAll('[data-js="answer"]')) {
+    const rightbutton = card.querySelector('[data-js="rightbutton"]');
+    if (rightbutton) {
+        rightbutton.addEventListener("click", () => {
+            rightbutton.classList.toggle("rightbuttonclick");
+        });
+    }
+}
 
-bookmark1.addEventListener("click", () => {
-    bookmark1.classList.toggle("paws1bookmark")
-})
-bookmark2.addEventListener("click", () => {
-    bookmark2.classList.toggle("paws1bookmark")
-})
 
 
 
-const rightButton1 = document.querySelector('[data-js="rightbutton1"]')
+
+
+/* for (const button of card.querySelectorAll('[data-js="rightbutton"]')) {
+    button.addEventListener("click", () => {
+
+    if () {
+        bookmark.addEventListener("click", () => {
+            bookmark.classList.toggle("paws1bookmark");
+        button.classList.toggle("rightbuttonclick");
+    });
+}
+
+for (const button of card.querySelectorAll('[data-js="falsebutton"]')) {
+    button.addEventListener("click", () => {
+        button.classList.toggle("falsebuttonclick");
+    });
+} */
+
+
+
+
+
+/* const rightButton1 = document.querySelector('[data-js="rightbutton1"]')
 rightButton1.addEventListener("click", () => {
     rightButton1.classList.toggle("rightbuttonclick")
 })
@@ -38,4 +68,4 @@ falseButton2.addEventListener("click", () => {
 const falseButton22 = document.querySelector('[data-js="falsebutton22"]')
 falseButton22.addEventListener("click", () => {
     falseButton22.classList.toggle("fakebuttonclick")
-})
+}) */
